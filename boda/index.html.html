@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitación de Boda</title>
+  <link rel="stylesheet" href="./Invitación de Boda_files/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      background-image: url( ../boda/imagenes/fondo.png);
+      height: 40%;
+      opacity: 10;
+    }
+    .container {
+      margin: 50px auto;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    .container-header {
+      margin-bottom: 20px;
+    }
+    .container-header img {
+      margin-top: 20px;
+    }
+    .container-header p {
+      margin-top: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #188cb9;
+    }
+    h1 {
+      color: #dba36a;
+    }
+    p {
+      color: #5a5a5a;
+    }
+    .btn {
+      margin-top: 10px;
+      transition: background-color 0.70s;
+      color: #d4a373;
+      background-color: transparent;
+      border: 2px solid #d4a373;
+    }
+    .btn:hover {
+      background-color: #d4a373;
+      color: #ffffff;
+    }
+    #countdown {
+      color: #000000;
+      opacity: 80%;
+      margin-top: 13px;
+      font-weight: bold;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #9cc7ef;
+      display: inline-block;
+    }
+    .countdown-item {
+      display: inline-block;
+      margin: 0 1px;
+    }
+    .countdown-item span {
+      display: block;
+    }
+    .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 60%;
+      margin: auto;
+  }
+
+  </style>
+</head>
+<body onclick="PlayAudio()">
+  <div class="container text-center">
+    <h1>Cristian &amp; Carolina</h1>
+    <p>Queridos amigos y familiares,</p>
+    <p>Estamos encantados de anunciar que <strong>Cristian</strong> &amp; <strong>Carolina</strong> se unirán en matrimonio el <strong>29 de junio del 2024</strong> a las <strong>14:00 horas</strong> en <strong>La Iglesia La Niña Maria</strong>.</p>
+    <p>Este día será uno lleno de amor, alegría y significado, y nos gustaría compartirlo con todos ustedes.</p>
+    <p>Esperamos con ansias celebrar este momento especial con todos nuestros seres queridos. La ceremonia será seguida por una recepción llena de comida, baile y momentos inolvidables.</p>
+    <p>Por favor, únanse a nosotros para celebrar el comienzo de nuestro viaje juntos. Su presencia hará que este día sea aún más especial.</p>
+    <p>Fecha: <strong>29 de junio de 2024</strong><br>
+    Hora: <strong>14:00 horas</strong><br>
+    Lugar: <strong>Iglesia La Niña Maria</strong></p>
+    <p>Con amor y gratitud,<br>Cristian &amp; Carolina</p>
+
+    <div id="countdown">
+          <div class="countdown-item"><span>89</span>días</div>
+          <div class="countdown-item"><span>16</span>horas</div>
+          <div class="countdown-item"><span>22</span>minutos</div>
+          <div class="countdown-item"><span>26</span>segundos</div>
+        </div>
+
+      <div class="row text-center" style="margin-top: 20px; display: flex; justify-content: center; gap: 20px;">
+        <!-- Botón 1: Ubicación de la Misa -->
+        <div style="flex: 1; max-width: 150px;">
+          <a href="https://www.google.com/maps/place/Parroquia+La+Ni%C3%B1a+Maria/@5.0576465,-75.4878321,17z/data=!3m1!4b1!4m6!3m5!1s0x8e47657e92b5b319:0x6fb02238f3a4c28d!8m2!3d5.0576412!4d-75.4852572!16s%2Fg%2F11c1q636sj?entry=ttu" target="_blank">
+            <img src="../boda/imagenes/image3.png" alt="Ver ubicación de la misa en Google Maps" style="width: 50%; height: auto;">
+            <p>Ceremonia</p>
+          </a>
+        </div>
+        <!-- Botón 2: Ubicación de la Recepción -->
+        <div style="flex: 1; max-width: 150px;">
+          <a href="https://www.google.com/maps/place/Sal%C3%B3n+del+Cafe/@5.0914999,-75.5325167,17z/data=!3m1!4b1!4m6!3m5!1s0x8e4771f2d7ff29a3:0x9b50293d2ac25ccf!8m2!3d5.0914946!4d-75.5299418!16s%2Fg%2F11grc403fj?entry=ttu" target="_blank">
+            <img src="../boda/imagenes/image2.png" alt="Ver ubicación de la recepción en Google Maps" style="width: 50%; height: auto;">
+            <p>Recepción</p>
+          </a>
+        </div>
+        <!-- Botón 2: Ubicación de la Recepción -->
+        <div style="flex: 1; max-width: 150px;">
+          <a href="https://forms.gle/Nh2AfUhZ8XPi2RhF7" target="_blank">
+          <img src="../boda/imagenes/image4.png" alt="Confirmacion de Asistencia" style="width: 50%; height: auto;">
+          <p>Asistencia</p>
+          </a>
+        </div>
+      </div>
+
+        
+  <script>
+    const weddingDate = new Date("June 29, 2024 14:00:00").getTime();
+    const countdownElement = document.getElementById("countdown");
+    
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const difference = weddingDate - now;
+    
+      if (difference > 0) {
+        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+    
+        countdownElement.innerHTML = `
+          <div class="countdown-item"><span>${days}</span>días</div>
+          <div class="countdown-item"><span>${hours}</span>horas</div>
+          <div class="countdown-item"><span>${minutes}</span>minutos</div>
+          <div class="countdown-item"><span>${seconds}</span>segundos</div>
+        `;
+      } else {
+        countdownElement.innerHTML = "¡Hoy es el gran día!";
+      }
+    }
+    
+    setInterval(updateCountdown, 1000);
+    updateCountdown();
+    
+
+
+    </script>
+
+</ol>
+
+<audio id="audio1">
+    <source src="../boda/musica/Fonseca - En Vivo y En Directo (Audio).mp3" type="audio/mpeg">
+    Tu navegador no soporta audio HTML5.
+</audio>
+<script>
+    function PlayAudio() {
+      document.getElementById("audio1").play();
+    }
+  </script>
+
+<br>
+
+<h4>Codigo de Vestimenta</h4>
+<h5>De Etiqueta</h5>
+
+<div style="flex: 1; max-width: 10px;">
+  <img src="../boda/imagenes/colores.png">
+  </a>
+</div>
+
+
+<h4>En nombre de los novios</h4>
+
+  <p>Queremos que lo importante sea el que nos acompañen a celebrar con ilusión, 
+  alegría y muchas ganas de disfrutar. Si desean hacernos un regalo, estaremos 
+  muy agradecidos. Podran depositarlo en el tarjetero preparado para este fin. Gracias</p>
+
+<br>
+<br>
+
+<div id="theCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicadores -->
+<ol class="carousel-indicators">
+  <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+  <li data-target="#theCarousel" data-slide-to="1"></li>
+  <li data-target="#theCarousel" data-slide-to="2"></li>
+  <li data-target="#theCarousel" data-slide-to="3"></li>
+  <li data-target="#theCarousel" data-slide-to="4"></li>
+  <li data-target="#theCarousel" data-slide-to="5"></li>
+</ol>
+
+<div class="carousel-inner" role="listbox">
+  <div class="item active">
+    <img src="../boda/imagenes/foto1.jpg" alt="Ilustracion"> 
+  </div>
+  <div class="item">
+    <img src="../boda/imagenes/foto2.jpg" alt="Fotografia"> 
+  </div>
+  <div class="item">
+    <img src="../boda/imagenes/foto3.png" alt="Fotografia"> 
+  </div>
+  <div class="item">
+    <img src="../boda/imagenes/foto4.jpg" alt="Fotografia"> 
+  </div>
+  <div class="item">
+    <img src="../boda/imagenes/foto5.png" alt="Fotografia"> 
+  </div>
+  <div class="item">
+    <img src="../boda/imagenes/foto6.jpg" alt="Fotografia"> 
+  </div>
+</div>
+  </div>
+<br>
+<footer>
+  <h6>© 2024 Arroyave´s. Todos los derechos reservados.</h6>
+</footer>
+</body>
+</html>
